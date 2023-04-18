@@ -1,0 +1,152 @@
+h1{
+	position: relative;
+	top: 61%;
+	right: 32%;
+}
+b {
+	margin-top: 3%;
+	margin-left: 3%;
+	text-align: center;
+}
+.top {
+	display: block;
+	border: 1px solid black;
+	height: 16vh;
+	width: 100%;
+	vertical-align: middle;
+}
+.meni {
+	color: white;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li {
+	font-size: 3vh;
+	margin-left: 6%;
+	left: 1%;
+	display: inline;
+}
+li a {
+	text-align: center;
+	text-decoration: none;
+}
+li:first-child {
+	padding: 5% 5%;
+	border: none;
+}
+.przycisk {
+	padding: 4% 7%;
+	text-align: center;
+}
+.nasza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.block {
+	display: flex;
+	justify-content: left;
+	font-size: 2vh;
+	height: 30vh;
+	width: 80%;
+	margin-top: 4%;
+	margin-left: 5%;
+	border: 1px solid black;
+}
+.block:hover {
+	animation-name: trans;
+	animation-duration: 2s;
+	color: #fc9403;
+  border: 1px solid #fc9403;
+}
+
+@keyframes trans {
+  from {width: 80%;
+		height: 30vh;}
+  to {width: 85%;
+	  height: 32vh;}
+}
+
+footer{
+	border: 1px solid black;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+	color: white;
+    
+}
+
+.foot{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+}
+
+.foot1{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot2{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot3{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot4{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot5{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.kolor{
+    text-decoration: none;
+}
+
+p{
+	color: black;
+    text-align: center;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #fc9403;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  text-decoration: none;
+}

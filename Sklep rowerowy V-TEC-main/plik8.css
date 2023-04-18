@@ -1,0 +1,201 @@
+.top {
+	display: block;
+	border: 1px solid black;
+	height: 16vh;
+	width: 100%;
+	vertical-align: middle;
+}
+.meni {
+	color: white;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li {
+	font-size: 3vh;
+	margin-left: 6%;
+	left: 1%;
+	display: inline;
+}
+li a {
+	text-align: center;
+	text-decoration: none;
+}
+li:first-child {
+	padding: 5% 5%;
+	border: none;
+}
+.przycisk {
+	padding: 4% 7%;
+	text-align: center;
+}
+#zadzwon{
+    height: 50%;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 10PX 10PX 0px 10PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr{
+    background-color: blue;
+    width: 80%;
+    height: 2px;
+
+}
+
+h3{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+p{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 80px;
+}
+
+.formularz{
+    margin-top: 3%;
+    justify-content: center;
+    height: 40%;
+    display: flex;
+}
+#mail{
+    width: 16%;
+    height: 5%;
+    position: relative;
+    margin-top: 8%;
+}
+
+#tresc{
+	width: 28%;
+    height: 140%;
+    margin-left: 2%;
+    position: relative;
+	top: 16%;
+}
+
+#send{
+    height: 30%;
+    position: relative;
+    margin-top: 4%;
+}
+
+input[type="email"]{
+    width: 230px;
+    height: 40px;
+    position: relative;
+    top: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+textarea{
+    height: 90%;
+	width: 90%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    
+}
+    
+
+input[type="button"]{
+    width: 230px;
+    height: 40px;
+    position: relative;
+    top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+::placeholder{
+    padding: 5px;
+}
+
+#napisz{
+    height: 500px;
+    margin-left: 20px;
+}
+
+#przyjdz{
+    height: 400px;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #fc9403;
+}
+footer{
+	border: 1px solid black;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+    
+}
+
+.foot{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+}
+
+.foot1{
+    margin-left: 140px;
+    padding: 20px;
+    border: .1em solid #3e3f46;
+}
+
+.foot2{
+    margin-left: 140px;
+    padding: 20px;
+    border: .1em solid #3e3f46;
+}
+
+.foot3{
+    margin-left: 140px;
+    padding: 20px;
+    border: .1em solid #3e3f46;
+}
+
+.foot4{
+    margin-left: 140px;
+    padding: 20px;
+    border: .1em solid #3e3f46;
+}
+
+.foot5{
+    margin-left: 140px;
+    padding: 20px;
+    border: .1em solid #3e3f46;
+}
+
+.kolor{
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+}
