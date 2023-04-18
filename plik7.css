@@ -1,0 +1,196 @@
+.top {
+	display: block;
+	border: 1px solid black;
+	height: 16vh;
+	width: 100%;
+	vertical-align: middle;
+}
+.meni {
+	color: white;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li {
+	font-size: 3vh;
+	margin-left: 6%;
+	left: 1%;
+	display: inline;
+}
+li a {
+	text-align: center;
+	text-decoration: none;
+}
+li:first-child {
+	padding: 5% 5%;
+	border: none;
+}
+.przycisk {
+	padding: 4% 7%;
+	text-align: center;
+}
+.opinie{
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+}
+
+#opinia1{
+    width: 20%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-top: 80px;
+	text-align: center;
+	background-color: white;
+}
+
+#opinia2{
+    width: 20%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-top: 80px;
+	text-align: center;
+	background-color: white;
+}
+
+#opinia3{
+    width: 20%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-top: 80px;
+	text-align: center;
+    background-color: white;
+}
+
+#zdj_tlo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    background-image: url("https://volantification.pl/wp-content/uploads/2017/01/jake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    
+}
+
+#zdj_tlo2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    background-image: url("https://bi.im-g.pl/im/90/8c/1a/z27839120IER,Szczesliwa-kobieta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+#zdj_tlo3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    background-image: url("https://i.randki24.pl/img/opisy/przystojny-atrakcyjny-usmiechniety-mezczyzna.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+p{
+	color: black;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+	color: white;
+    
+}
+
+.foot{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+}
+
+.foot1{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot2{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot3{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot4{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.foot5{
+    margin-left: 80px;
+    padding: 10px;
+    border: .1em solid #3e3f46;
+}
+
+.kolor{
+    text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #fc9403;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,344 @@
+:root{
+    --clr: #222327;
+}
+
+
+.pasek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222327;
+    height: 130px;
+    width: 100%;
+}
+
+.ikony{
+    padding: 10px;
+    display: flex;
+    width: 300px;
+}
+
+.ikonka_tweeter{
+    font-size: 2em;
+    color: #fc9403;
+    padding-left: 8px;
+}
+
+.ikonka_tweeter a{
+    color: #fc9403;
+}
+
+.ikonka_instagram{
+    font-size: 2em;
+    color: #fc9403;
+    padding-left: 8px;
+}
+
+.ikonka_instagram a{
+    color: #fc9403;
+}
+
+.ikonka_facebook{
+    font-size: 2em;
+    color: #fc9403;
+    padding-left: 8px;
+}
+
+.ikonka_facebook a{
+    color: #fc9403;
+}
+
+
+
+
+.navigation{
+    width: 500px;
+    height: 70px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 950px;
+}
+
+.navigation ul{
+    display: flex;
+    width: 350px;
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.8em;
+    text-align: center;
+    transition: 0.5s;
+    color: var(--clr);
+}
+
+.navigation ul li.active a .icon{
+    transform: translateY(-32px);
+}
+
+.navigation ul li a .text{
+    position: absolute;
+    color: var(--clr);
+    font-weight: 600;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.navigation ul li.active a .text{
+    opacity: 1;
+    transform: rotateY(10px);
+}
+
+.indicator{
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: #fc9403;
+    border-radius: 50%;
+    border: 6px solid var(--clr);
+    transition: 0.5s;
+}
+
+.indicator::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--clr);
+}
+
+.indicator::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--clr);
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+    transform: translateX(calc(70px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+    transform: translateX(calc(70px * 1));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+    transform: translateX(calc(70px * 2));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator {
+    transform: translateX(calc(70px * 3));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator {
+    transform: translateX(calc(70px * 4));
+}
+
+header{
+    width: 100%;
+    height: 300px;
+}
+
+body{
+    background-color: #fff;
+}
+
+.napis{
+    width: 70%;
+    height: 100px;
+    background-color: #fc9403;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    position: relative;
+    top: 30px;
+}
+
+.men{
+    background-image: url("https://fajnelogo.pl/html/public/images/files/nqCzURhLkt0oaS3gxVpYrQDcAd5JwyFsbHX7P62BmN1TMKlOEu9Z8iWfvejI4G/2814/325x250_38362092_roweryjpg.jpg");
+    width: 18%;
+    margin-top: 100px;
+    height: 250px;
+    margin-left: 40%;
+    margin-right: 100px;
+}
+
+#kawa{
+    background-image: url("https://kawowy.info/wp-content/uploads/2019/01/czy-kawa-bezkofeinowa-jest-zdrowsza-jak-smakuje-rozwiewamy-watpliwosci.jpeg");
+    border-radius: 50%;
+    height: 200px;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+
+
+#desery{
+    background-image:url("https://www.oetker.pl/Recipe/Recipes/oetker.pl/pl-pl/baking/image-thumb__51955__RecipeDetail/pyszna-szarlotka.jpg");
+    border-radius: 50%;
+    height: 200px;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 260px;
+    left: 750px;
+    padding: 20px;
+    margin-left: 40px;
+
+}
+
+
+
+#napoje_zimne{
+    background-image: url("https://cdn.galleries.smcloud.net/t/galleries/gf-Z8hW-uPr9-tG54_zimne-napoje-664x442-nocrop.jpg");
+    border-radius: 50%;
+    height: 200px;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 260px;
+    left: 1300px;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+#reklama{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+#tekst{
+    margin-top: 200px;
+    width: 80%;
+    height: 600px;
+    margin-left: 300px;
+    display: flex;
+    font-size: 20px;
+    
+}
+
+#tekst2{
+    margin-top: 200px;
+    width: 80%;
+    height: 600px;
+    margin-left: 300px;
+    display: flex;
+    font-size: 20px;
+    
+}
+
+#tekst3{
+    margin-top: 200px;
+    width: 80%;
+    height: 600px;
+    margin-left: 300px;
+    display: flex;
+    font-size: 20px;
+    
+}
+
+h1 {
+	text-align: center;
+}
+
+p{
+    
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+ul{
+    list-style-type: none;
+    
+}
+
+ol{
+    list-style-type: none;
+    text-align: center;
+}
+
+.cennik{
+    text-align: center;
+    
+}
+
+.cennik_napoje{
+    text-align: center;
+}
+
+.ol{
+    margin-left: 20px;
+}
+
+.desery_napis{
+    margin-top: 60px;
+}
+
+.cena_deserow{
+    margin-top: 60px;
+}
+
+
+
+
+
+
